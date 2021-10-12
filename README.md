@@ -1,5 +1,5 @@
 # Hand Gesture Controlled Robot
-This project controlls turtlebot3 robot in gazebo using hand gestures.
+This project aim is to controll turtlebot3 robot in gazebo using hand gestures.
 ## Requirements
 1. Install Ros From link:
 http://wiki.ros.org/ROS/Installation (Noetic-Version)
@@ -21,7 +21,7 @@ http://wiki.ros.org/ros_control
 5. Install Turtlebot3 Packages in src folder of catkin_ws :
 https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 ## Main concepts 
-1. Primary concepts used for hand gesture recognition are contour,convex-hull,convexity-defects.
+1. Primary concepts used for hand gesture recognition are contour,convex-hull and convexity-defects.
 2. For controlling the Turtlebot3 we published velocity to turtlebot3 in gazebo using rostopic /cmd_vel
 ## Getting Started
 1. Start your Turtlebot3 simulation:
